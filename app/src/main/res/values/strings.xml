@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SahanaCorona</string>
+    <string name="title_activity_register_">Register_Activity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_mark_peoples">MarkPeoples</string>
+    <string name="title_activity_provide_fodd">ProvideFodd</string>
+    <string name="title_activity_delivery">Delivery</string>
+    <string name="title_activity_otp">OtpActivity</string>
+    <string name="title_activity_otp_">Otp_Activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_give_food">GiveFood</string>
+    <string name="title_activity_give_packing">GivePacking</string>
+    <string name="title_activity_give_necessity">GiveNecessity</string>
+    <string name="title_activity_provide_packaging">ProvidePackaging</string>
+    <string name="title_activity_show_data">ShowData</string>
+</resources>

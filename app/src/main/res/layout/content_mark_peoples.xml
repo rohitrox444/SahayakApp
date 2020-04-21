@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MarkPeoples"
+    tools:showIn="@layout/activity_mark_peoples">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAHANA"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Current Location Detected"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:padding="30dp"
+        android:id="@+id/mark_people_LOCATION_TXT"
+        android:layout_marginTop="70dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mark_people_LOCATION_TXT"
+        android:hint="Enter location Address"
+        android:gravity="center"
+        android:id="@+id/mark_people_AREADESC"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mark_people_AREADESC"
+        android:hint="Other location details Landmark"
+        android:gravity="center"
+        android:id="@+id/mark_people_AREAMARK"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mark_people_AREAMARK"
+        android:hint="No. of Peoples"
+        android:gravity="center"
+        android:id="@+id/mark_people_NOPEOPLE"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:gravity="center"
+        android:text="SUBMIT"
+        android:textSize="30dp"
+        android:layout_below="@+id/mark_people_NOPEOPLE"
+        android:layout_marginTop="25dp"
+        android:id="@+id/mark_people_SUBMIT"
+        />
+</RelativeLayout>
+</ScrollView>
